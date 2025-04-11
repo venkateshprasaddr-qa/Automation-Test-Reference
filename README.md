@@ -5,7 +5,7 @@ It supports test case writing, data-driven testing, and automatic screenshot cap
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - Java  
 - Selenium WebDriver  
@@ -15,7 +15,7 @@ It supports test case writing, data-driven testing, and automatic screenshot cap
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone or download the repository.  
 2. Import into Eclipse or IntelliJ as a Maven project.  
@@ -25,7 +25,7 @@ It supports test case writing, data-driven testing, and automatic screenshot cap
 
 ---
 
-## ✍️ Writing Your Own Test Cases
+##  Writing Your Own Test Cases
 
 - Go to `tests/TestScriptsClass.java`  
 - Write your test methods with `@Test`  
@@ -38,6 +38,6 @@ It supports test case writing, data-driven testing, and automatic screenshot cap
 
 - Screenshot capture works only for **failed** tests.  
 - Make sure browser drivers (Chrome, Edge, etc.) are managed via WebDriverManager.  
-- Application URL is set in `BaseClass.java`.  
+- Application URL is opened in the respective test method can also be kept in Base class as per necessity
 
 ---
