@@ -15,6 +15,14 @@ public class Base_Class {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
+
+        //Note:-
+
+        //driver.het("  URL  ")-----is kept inside the TestScriptClass ,Application URL is opened in the respective test method, not in BaseClass(so, we can use multiple URL's for each test methods if required)
+
+        //driver.get("  URL ")-----can be used here as well based on the requirement but according to this.
+
+
         System.out.println("Browser launched successfully");
     }
 
