@@ -26,6 +26,10 @@ package automation_Test_Package;
 	    //Multiple test cases can be written here.....
 	    
 	    
+	    //@Test
+	    //.....
+	    //......
+	    
 	}
 
 
