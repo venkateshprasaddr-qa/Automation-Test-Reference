@@ -35,7 +35,7 @@ public class ListenersClass implements ITestListener {
             java.nio.file.Files.copy(srcFile.toPath(), destFile.toPath());
             System.out.println("Screenshot captured: " + destFile.getAbsolutePath());
         } catch (IOException e) {
-            System.out.println("❌ Failed to save screenshot: " + e.getMessage());
+            System.out.println("Failed to save screenshot: " + e.getMessage());
         }
     }
 
