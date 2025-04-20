@@ -7,6 +7,10 @@ package automation_Test_Package;
 	import org.testng.Assert;
 	import org.testng.annotations.Test;
 
+        @Listeners(automation_Test_Package.ListenersClass.class)
+
+
+
 	public class TestScriptsClass extends Base_Class {
 
 	    @Test(dataProvider = "loginCredentials", dataProviderClass = DataProviderClass.class)
