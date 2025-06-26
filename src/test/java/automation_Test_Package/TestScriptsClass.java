@@ -15,7 +15,7 @@ package automation_Test_Package;
 
 	    @Test(dataProvider = "loginCredentials", dataProviderClass = DataProviderClass.class)
 	    public void loginTest(String username, String password) {
-	        driver.get("https://example.com/login");
+	        driver.get("https://qa.ifaclick.com/login");
 
 	        // Sample locators - change according to your actual app
 	        driver.findElement(By.id("username")).sendKeys(username);
