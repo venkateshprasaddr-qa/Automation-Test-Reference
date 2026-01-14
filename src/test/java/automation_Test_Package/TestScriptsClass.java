@@ -21,7 +21,7 @@ package automation_Test_Package;
 	        driver.findElement(By.id("username")).sendKeys(username);
 	        driver.findElement(By.id("password")).sendKeys(password);
 	        driver.findElement(By.id("loginBtn")).click();
-
+	        System.out.println("hiii");
 	        // Dummy validation - change this as per your app’s behavior
 	        String currentUrl = driver.getCurrentUrl();
 	        Assert.assertTrue(currentUrl.contains("dashboard"), "Login failed or did not redirect to dashboard.");
